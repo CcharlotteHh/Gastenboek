@@ -21,7 +21,8 @@
         <input type="text" name="message" id="message">
     </div>
     
-    <input type="submit" value="POST!">
+    
+    <input  type="submit" value="POST!">
     </form>
 </body>
 </html>

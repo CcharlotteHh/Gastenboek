@@ -5,6 +5,9 @@
 }
 
 .container{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     background-color: gray;
     justify-content: center;
@@ -28,5 +31,35 @@ input[type="text"]{
     padding: 10px;
     font-size: 18px;
 }
+
+.formlabel{
+    flex-basis: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin: 20px 0;   
+    transition: all 0.3 ease 0s;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(158, 67, 243);
+
+}
+
+@media all and (max-width:480px){
+    .flex-input{
+        flex-direction: column;
+    }
+}
+
 
 
